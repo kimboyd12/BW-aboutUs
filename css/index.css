@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+nav img {
+  width: 23%;
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #687864;
+}
+nav a:hover {
+  color: #8FC1E3;
+}
+html {
+  background-color: #F7F9FB;
+  font-size: 67.5%;
+}
+html body {
+  display: flex;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  color: #31708E;
+  flex-direction: column;
+}
+html body h1 {
+  display: flex;
+  font-size: 2.6rem;
+  font-weight: bold;
+  justify-content: center;
+}
+html body p {
+  padding: 3%;
+  text-align: center;
+}
+html .meet-the-team {
+  border: 1px solid #8FC1E3;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+html .team-intros h3 {
+  display: flex;
+  font-size: 2.6rem;
+  font-weight: bold;
+  justify-content: center;
+  margin: 3% 0%;
+}
+html .ui-designers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7%;
+}
+html .ui-designers .member {
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+html .ui-designers img {
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  border-radius: 10%;
+  margin-left: 25%;
+  padding-top: 2%;
+}
+html .ui-designers p {
+  margin-left: 13%;
+  font-size: 1.8rem;
+}
+html .react1-designers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7%;
+}
+html .react1-designers .member {
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+html .react1-designers img {
+  width: 250px;
+  border-radius: 10%;
+  margin-left: 25%;
+  padding-top: 2%;
+}
+html .react1-designers p {
+  margin-right: 5%;
+  font-size: 1.8rem;
+}
+html .react2-designers {
+  display: flex;
+  flex-direction: row;
+}
+html .react2-designers .member {
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+}
+html .react2-designers img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  margin-left: 25%;
+  padding-top: 2%;
+}
+html .react2-designers p {
+  margin-right: 5%;
+  font-size: 1.8rem;
+}

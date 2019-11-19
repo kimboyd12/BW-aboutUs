@@ -1,0 +1,127 @@
+html {
+    background-color: #F7F9FB;
+    font-size: 67.5%;
+
+    body {
+        display: flex;
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
+        color: @darkblue;
+        flex-direction: column;
+
+        h1 {
+
+            // USE THIS AS A MIX IN
+            display: flex;
+            font-size: 2.6rem;
+            font-weight: bold;
+            justify-content: center;
+        }
+
+        p {
+            padding: 3%;
+            text-align: center;
+        }
+
+    }
+    
+    .meet-the-team {
+        border: 1px solid @lightblue;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .team-intros {
+
+        h3 {
+            display: flex;
+            font-size: 2.6rem;
+            font-weight: bold;
+            justify-content: center;
+            margin: 3% 0%;
+        }
+        
+
+    }
+
+    .ui-designers {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 7%;
+
+        .member {
+            flex-direction: column;
+            width: 50%;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            justify-content: center;
+            border-radius: 10%;
+            margin-left: 25%;
+            padding-top: 2%;
+        }
+
+        p {
+            margin-left: 13%;
+            font-size: 1.8rem;
+        }
+    }
+
+
+    .react1-designers {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 7%;
+
+        .member {
+            flex-direction: column;
+            width: 50%;
+            justify-content: space-between;
+
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10%;
+            margin-left: 25%;
+            padding-top: 2%;
+        }
+        
+        p {
+            margin-right: 5%;
+            font-size: 1.8rem;
+        }
+    }
+
+
+    .react2-designers {
+        display: flex;
+        flex-direction: row;
+
+        .member {
+            flex-direction: column;
+            width: 50%;
+            justify-content:space-evenly;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            margin-left: 25%;
+            padding-top: 2%;
+        }
+
+        p {
+            margin-right: 5%;
+            font-size: 1.8rem;
+        }
+
+        // use that ^ as a mixin react 2 and 1
+    }
+}
