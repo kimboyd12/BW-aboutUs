@@ -144,8 +144,19 @@ nav a {
 nav a:hover {
   color: #8FC1E3;
 }
+footer {
+  margin: 0 auto;
+}
+footer h3 {
+  font-size: 1.8rem;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  margin: 5%;
+}
 html {
-  background-color: #F7F9FB;
   font-size: 67.5%;
 }
 html body {
@@ -156,6 +167,7 @@ html body {
   margin: 0 auto;
   color: #31708E;
   flex-direction: column;
+  background-color: #F7F9FB;
 }
 html body h1 {
   display: flex;
@@ -168,7 +180,6 @@ html body p {
   text-align: center;
 }
 html .meet-the-team {
-  border: 1px solid #8FC1E3;
   padding: 2%;
   margin-bottom: 5%;
 }
@@ -224,6 +235,7 @@ html .react1-designers p {
 html .react2-designers {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10%;
 }
 html .react2-designers .member {
   flex-direction: column;
