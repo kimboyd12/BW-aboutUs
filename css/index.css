@@ -211,6 +211,10 @@ html .ui-designers p {
   margin-left: 5%;
   font-size: 1.8rem;
 }
+html .ui-designers i {
+  margin-left: 50%;
+  font-size: 2.6rem;
+}
 html .react1-designers {
   display: flex;
   flex-direction: row;
@@ -225,8 +229,11 @@ html .react1-designers img {
   box-shadow: 10px 10px 5px grey;
 }
 html .react1-designers p {
-  margin-right: 5%;
   font-size: 1.8rem;
+}
+html .react1-designers i {
+  margin-left: 48%;
+  font-size: 2.6rem;
 }
 html .react2-designers {
   display: flex;
@@ -242,6 +249,9 @@ html .react2-designers img {
   box-shadow: 10px 10px 5px grey;
 }
 html .react2-designers p {
-  margin-right: 5%;
   font-size: 1.8rem;
+}
+html .react2-designers i {
+  margin-left: 48%;
+  font-size: 2.6rem;
 }
