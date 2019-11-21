@@ -1,5 +1,5 @@
 html {
-    // background-color:@lightblue;
+
     font-size: 67.5%;
 
     body {
@@ -11,6 +11,10 @@ html {
         color: @darkblue;
         flex-direction: column;
         background-color: @white;
+
+        @media @mobile {
+            margin-right: 10%;
+        }
 
         h1 {
 
@@ -30,6 +34,10 @@ html {
         padding: 2%;
         margin-bottom: 5%;
 
+        @media @mobile {
+            width: 80%;
+            margin-left: 3%;
+        }
     }
 
     .team-intros {
@@ -37,12 +45,20 @@ html {
         h3 {
             .headerstyling(flex, 2.6rem, bold, center);
             margin: 3% 0%;
+
+            @media @mobile {
+                font-size: 2rem;
+                margin-right: 10%;
+                padding-bottom: 3%;
+            }
         }
 
         .member {
             flex-direction: column;
             width: 50%;
             justify-content: space-between;
+
+
         }
 
 
@@ -53,7 +69,9 @@ html {
         flex-direction: row;
         margin-bottom: 7%;
 
-
+        @media @mobile {
+            flex-direction: column;
+        }
 
         img {
             width: 250px;
@@ -63,17 +81,32 @@ html {
             margin-left: 18%;
             padding-top: 2%;
             box-shadow: 10px 10px 5px grey;
+
+            @media @mobile {
+                margin-left: 28%;
+            }
         }
 
         p {
             margin-left: 5%;
             font-size: 1.8rem;
+
+            @media @mobile {
+                width: 100%;
+                margin-left: 37%;
+                padding-top: 10%;
+            }
         }
 
         i {
             margin-left: 50%;
             font-size: 2.6rem;
             color: @darkblue;
+
+            @media @mobile {
+                margin-left: 85%;
+                padding-bottom: 10%;
+            }
         }
     }
 
@@ -83,20 +116,36 @@ html {
         flex-direction: row;
         margin-bottom: 7%;
 
+        @media @mobile {
+            flex-direction: column;
+        }
+
 
         img {
             .reactdevelopers(250px, 250px, 10%, 27%, 2%, 10px 10px 5px grey);
+            
 
         }
         
         p {
             font-size: 1.8rem;
+
+            @media @mobile {
+                width: 100%;
+                margin-left: 37%;
+                padding-top: 10%;
+            }
         }
 
         i {
             margin-left: 48%;
             font-size: 2.6rem;
             color: @darkblue;
+
+            @media @mobile {
+                margin-left: 85%;
+                padding-bottom: 10%;
+            }
         }
 
     }
@@ -107,6 +156,9 @@ html {
         flex-direction: row;
         margin-bottom: 10%;
 
+        @media @mobile {
+            flex-direction: column;
+        }
 
         img {
             .reactdevelopers(250px, 250px, 10%, 27%, 2%, 10px 10px 5px grey);
@@ -114,12 +166,23 @@ html {
 
         p {
             font-size: 1.8rem;
+
+            @media @mobile {
+                width: 100%;
+                margin-left: 37%;
+                padding-top: 10%;
+            }
         }
         
         i{
             margin-left: 48%;
             font-size: 2.6rem;
             color: @darkblue;
+
+            @media @mobile {
+                margin-left: 85%;
+                padding-bottom: 10%;
+            }
         }
     }
 }

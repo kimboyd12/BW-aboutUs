@@ -132,14 +132,33 @@ nav {
   justify-content: space-between;
   margin-bottom: 6%;
 }
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    margin-right: 8%;
+  }
+}
 nav img {
   width: 23%;
+}
+@media (max-width: 500px) {
+  nav img {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 nav a {
   display: flex;
   text-decoration: none;
   align-items: center;
   color: #687864;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin: 0 auto;
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
 }
 nav a:hover {
   color: #8FC1E3;
@@ -148,6 +167,11 @@ footer {
   margin: 0 auto;
   width: 50%;
   font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  footer {
+    margin-right: 30%;
+  }
 }
 footer p {
   color: #687864;
@@ -175,6 +199,11 @@ html body {
   flex-direction: column;
   background-color: #F7F9FB;
 }
+@media (max-width: 500px) {
+  html body {
+    margin-right: 10%;
+  }
+}
 html body h1 {
   display: flex;
   font-size: 2.6rem;
@@ -190,12 +219,25 @@ html .meet-the-team {
   padding: 2%;
   margin-bottom: 5%;
 }
+@media (max-width: 500px) {
+  html .meet-the-team {
+    width: 80%;
+    margin-left: 3%;
+  }
+}
 html .team-intros h3 {
   display: flex;
   font-size: 2.6rem;
   font-weight: bold;
   justify-content: center;
   margin: 3% 0%;
+}
+@media (max-width: 500px) {
+  html .team-intros h3 {
+    font-size: 2rem;
+    margin-right: 10%;
+    padding-bottom: 3%;
+  }
 }
 html .team-intros .member {
   flex-direction: column;
@@ -207,6 +249,11 @@ html .ui-designers {
   flex-direction: row;
   margin-bottom: 7%;
 }
+@media (max-width: 500px) {
+  html .ui-designers {
+    flex-direction: column;
+  }
+}
 html .ui-designers img {
   width: 250px;
   height: 250px;
@@ -216,19 +263,42 @@ html .ui-designers img {
   padding-top: 2%;
   box-shadow: 10px 10px 5px grey;
 }
+@media (max-width: 500px) {
+  html .ui-designers img {
+    margin-left: 28%;
+  }
+}
 html .ui-designers p {
   margin-left: 5%;
   font-size: 1.8rem;
+}
+@media (max-width: 500px) {
+  html .ui-designers p {
+    width: 100%;
+    margin-left: 37%;
+    padding-top: 10%;
+  }
 }
 html .ui-designers i {
   margin-left: 50%;
   font-size: 2.6rem;
   color: #31708E;
 }
+@media (max-width: 500px) {
+  html .ui-designers i {
+    margin-left: 85%;
+    padding-bottom: 10%;
+  }
+}
 html .react1-designers {
   display: flex;
   flex-direction: row;
   margin-bottom: 7%;
+}
+@media (max-width: 500px) {
+  html .react1-designers {
+    flex-direction: column;
+  }
 }
 html .react1-designers img {
   width: 250px;
@@ -241,15 +311,33 @@ html .react1-designers img {
 html .react1-designers p {
   font-size: 1.8rem;
 }
+@media (max-width: 500px) {
+  html .react1-designers p {
+    width: 100%;
+    margin-left: 37%;
+    padding-top: 10%;
+  }
+}
 html .react1-designers i {
   margin-left: 48%;
   font-size: 2.6rem;
   color: #31708E;
 }
+@media (max-width: 500px) {
+  html .react1-designers i {
+    margin-left: 85%;
+    padding-bottom: 10%;
+  }
+}
 html .react2-designers {
   display: flex;
   flex-direction: row;
   margin-bottom: 10%;
+}
+@media (max-width: 500px) {
+  html .react2-designers {
+    flex-direction: column;
+  }
 }
 html .react2-designers img {
   width: 250px;
@@ -262,8 +350,21 @@ html .react2-designers img {
 html .react2-designers p {
   font-size: 1.8rem;
 }
+@media (max-width: 500px) {
+  html .react2-designers p {
+    width: 100%;
+    margin-left: 37%;
+    padding-top: 10%;
+  }
+}
 html .react2-designers i {
   margin-left: 48%;
   font-size: 2.6rem;
   color: #31708E;
+}
+@media (max-width: 500px) {
+  html .react2-designers i {
+    margin-left: 85%;
+    padding-bottom: 10%;
+  }
 }

@@ -4,8 +4,18 @@ nav {
     justify-content: space-between;
     margin-bottom: 6%;
 
+    @media @mobile {
+        flex-direction: column;
+        margin-right: 8%;
+    }
+
     img {
         width: 23%;
+
+        @media @mobile {
+            margin: 0 auto;
+            width: 50%;
+        }
     }
 
     a {
@@ -13,6 +23,12 @@ nav {
         text-decoration: none;
         align-items: center;
         color: @green;
+
+        @media @mobile {
+            margin: 0 auto;
+            font-size: 2rem;
+            padding-bottom: 2%;
+        }
     }
 
     a:hover {
