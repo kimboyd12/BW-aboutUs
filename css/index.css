@@ -146,6 +146,15 @@ nav a:hover {
 }
 footer {
   margin: 0 auto;
+  width: 50%;
+  font-size: 1.4rem;
+}
+footer p {
+  color: #687864;
+}
+footer p a {
+  color: #687864;
+  text-decoration: none;
 }
 footer .social-media {
   display: flex;
@@ -214,6 +223,7 @@ html .ui-designers p {
 html .ui-designers i {
   margin-left: 50%;
   font-size: 2.6rem;
+  color: #31708E;
 }
 html .react1-designers {
   display: flex;
@@ -234,6 +244,7 @@ html .react1-designers p {
 html .react1-designers i {
   margin-left: 48%;
   font-size: 2.6rem;
+  color: #31708E;
 }
 html .react2-designers {
   display: flex;
@@ -254,4 +265,5 @@ html .react2-designers p {
 html .react2-designers i {
   margin-left: 48%;
   font-size: 2.6rem;
+  color: #31708E;
 }
